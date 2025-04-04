@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: true  # Required if you're using a theme via git submodule
+          fetch-depth: 0    # Ensures full Git history (helps with Hugo/gh-pages)
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -20,6 +23,7 @@ jobs:
           extended: true
 
       - name: Build site
+        working-directory: site
         run: hugo --minify
 
       - name: Deploy to GitHub Pages
@@ -27,3 +31,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAT }}
           publish_dir: site/public
+          publish_branch: gh-pages
