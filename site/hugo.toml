@@ -12,6 +12,7 @@ paginate = 10
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  mainSections = ["posts"]
 
 [menu]
   [[menu.main]]
