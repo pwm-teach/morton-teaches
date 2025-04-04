@@ -1,0 +1,25 @@
+baseURL = "https://pwm-teach.github.io/morton-teaches/"
+title = "Morton Teaches"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+paginate = 10
+
+[params]
+  author = "pwm"
+  description = "Teaching resources and digests"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+[outputs]
+  [outputs.home]
+    output = ["HTML", "RSS", "JSON"]
