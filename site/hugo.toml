@@ -13,6 +13,8 @@ paginate = 10
   ShowToc = true
   TocOpen = false
   mainSections = ["posts"]
+  homeInfoParams = true
+  showPostsOnHomePage = true
 
 [menu]
   [[menu.main]]
