@@ -1,28 +1,10 @@
-baseURL = "https://pwm-teach.github.io/morton-teaches/"
-title = "Morton Teaches"
-theme = "PaperMod"
-defaultContentLanguage = "en"
-paginate = 10
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Peter's Pages"
+theme = 'PaperMod'
 
 [params]
-  author = "pwm"
-  description = "Teaching resources and digests"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
-  mainSections = ["posts"]
-  homeInfoParams = true
-  showPostsOnHomePage = true
+showPostNavLinks = true
+showReadingTime = true
+showToc = true
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
-
-[outputs]
-  [outputs.home]
-    output = ["HTML", "RSS", "JSON"]
