@@ -1,0 +1,40 @@
+baseURL = "https://pwm-teach.github.io/morton-teaches/"
+languageCode = "en-gb"            # more locally appropriate than 'en-us'
+title = "Morton Teaches"
+theme = "PaperMod"
+
+# Default number of posts per page
+paginate = 10
+
+# Enable better output formats (e.g. feeds)
+[outputs]
+  [outputs.home]
+    output = ["HTML", "RSS", "JSON"]
+
+[params]
+  author = "pwm"                            # Shows in post meta (optional)
+  description = "Teaching resources and digests"  # Appears in meta tags
+  showPostNavLinks = true                  # Previous/next post buttons
+  showReadingTime = true                   # Show estimated reading time
+  showCodeCopyButtons = true               # Adds copy button to code blocks
+  showToc = true                           # Adds a table of contents (if present)
+  tocOpen = false                          # Keeps TOC collapsed by default
+  showShareButtons = false                 # Only enable if you're ready
+  comments = false                         # You can toggle this later if needed
+
+# Top navigation menu (optional)
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+# Where to find content
+[[cascade]]
+  _target = { path = "posts/**", kind = "page" }
+  type = "post"
+
+  [cascade._merge]
+    override = false
+
