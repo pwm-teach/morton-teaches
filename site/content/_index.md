@@ -1,4 +1,5 @@
 +++
 title = "Home"
-layout = "home"
 +++
+
+Welcome to my teaching resources site.
