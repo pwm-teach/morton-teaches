@@ -1,4 +1,4 @@
 +++
 title = "Posts"
-description = "Blog entries by academic year"
+description = "Blog posts grouped by academic year"
 +++
