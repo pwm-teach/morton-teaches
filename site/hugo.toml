@@ -1,14 +1,10 @@
-baseURL = "https://pwm-teach.github.io/morton-teaches/"
-languageCode = "en-gb"
-title = "Morton Teaches"
-theme = "PaperMod"
-paginate = 10
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Peter's Pages"
+theme = 'PaperMod'
 
 [params]
-  showPostNavLinks = true
-  showReadingTime = true
-  showToc = true
+showPostNavLinks = true
+showReadingTime = true
+showToc = true
 
-[outputs]
-  [outputs.home]
-    output = ["HTML", "RSS", "JSON"]
