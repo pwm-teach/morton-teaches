@@ -32,6 +32,6 @@ paginate = 10
 
 # Where to find content
 [[cascade]]
-  _target = { kind = "page" }
+  _target = { path = "posts/**", kind = "page" }
   type = "post"
 
