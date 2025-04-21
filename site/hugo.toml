@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://pwm-teach.github.io/morton-teaches/'
 languageCode = 'en-us'
-title = "Peter's Pages"
+title = "PWM-teach"
 theme = 'PaperMod'
 
 [params]
