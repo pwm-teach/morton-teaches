@@ -1,6 +1,6 @@
-baseURL = 'https://pwm-teach.github.io/morton-teaches/'
+baseURL = 'https://mortworks.github.io/teach-blog/'
 languageCode = 'en-us'
-title = "PWM-teach"
+title = "PWM Teach-Blog"
 theme = 'PaperMod'
 
 [params]
