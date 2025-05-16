@@ -1,4 +1,6 @@
 +++
-title = "Posts"
-description = "Blog posts grouped by academic year"
+title = "All Posts"
+type = "posts"
+layout = "list"
 +++
+

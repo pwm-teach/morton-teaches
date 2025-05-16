@@ -7,9 +7,4 @@ theme = 'PaperMod'
 showPostNavLinks = true
 showReadingTime = true
 showToc = true
-
-[[cascade]]
-  [cascade._target]
-    path = "posts/**"
-  type = "posts"
-
+showFullContent = false
